@@ -1,2 +1,3 @@
 # GC-calculator
-A function to Calculate the GC content of a file
+
+The (txt) versions asumes the file only contains the sequences being analyzed. Meaning names and other characters have been removed
