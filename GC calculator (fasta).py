@@ -20,4 +20,4 @@ def gc_calculator(seq):
     return gc_percent
 
 gc_content = gc_calculator(seq)
-print(gc_content)
+print(gc_content) 
