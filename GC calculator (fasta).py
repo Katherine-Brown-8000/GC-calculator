@@ -1,9 +1,9 @@
-file_name = r"C:\Users\usernane\Downloads\filename.fa"
+file_name = r"C:\Users\username\Downloads\sequence_name.fa"
 
 def read_file(file_name):
     with open(file_name, 'r') as file:
         content = file.readlines()
-        sequence = ''.join([line.strip() for line in content if not line.startswith('>')])
+        sequence = "".join([line.strip() for line in content if not line.startswith('>')])
         return sequence
 
 seq = read_file(file_name)
@@ -20,4 +20,4 @@ def gc_calculator(seq):
     return gc_percent
 
 gc_content = gc_calculator(seq)
-print(gc_content) 
+print(f"The GC percent of your sequence is: {gc_content}")
