@@ -1,4 +1,4 @@
-file_name = r"C:\Users\scien\Downloads\lambda_virus.fa"
+file_name = r"C:\Users\usernane\Downloads\filename.fa"
 
 def read_file(file_name):
     with open(file_name, 'r') as file:
