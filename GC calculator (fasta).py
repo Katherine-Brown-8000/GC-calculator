@@ -1,4 +1,4 @@
-file_name = r"C:\Users\username\Downloads\sequence_name.fa"
+file_name = r"C:\Users\scien\Desktop\phix_data.txt"
 
 def read_file(file_name):
     with open(file_name, 'r') as file:
