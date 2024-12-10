@@ -5,4 +5,4 @@ GC content refers to the percent of nucleuic acids in your sequence that is eith
 - The (fasta) version removes every thing on the same line as the > symbol, remember to only include one sequence in the fasta file.
 - The (txt) versions asumes the file only contains the sequences being analyzed. Meaning names and other characters have been removed. 
 
-
+![Alt](https://github.com/Katherine-Brown-8000/GC-calculator/blob/main/GC%20calculator%20display.png)
